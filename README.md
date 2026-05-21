@@ -1,7 +1,7 @@
 # StockBacktester
 
 A web-based portfolio backtesting tool built with Flask. Select stocks, choose a strategy, set a date range, and instantly see simulated portfolio performance versus a benchmark.
-
+![Example](image.png)
 ---
 
 ## What It Does
