@@ -38,7 +38,6 @@ A web-based portfolio backtesting tool built with Flask. Select stocks, choose a
 | Numerics | NumPy + pandas | Price series, returns, covariance |
 | Optimisation | SciPy | Markowitz (Max Sharpe / Min Variance) |
 | Frontend | Vanilla JS + HTML/CSS | Single-page UI, interactive charts |
-| Charting | Chart.js *(or Plotly?)* | Equity curve & allocation visualisation |
 
 ---
 
