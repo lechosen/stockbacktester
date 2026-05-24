@@ -24,6 +24,22 @@ A web-based portfolio backtesting tool built with Flask. Select stocks, choose a
 | Robust Mean-Variance | Mean-variance with shrinkage for estimation noise |
 | MA Crossover | Trend-following — go to cash when price is below its moving average |
 
+## Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-3.x-000000?logo=flask)
+![pandas](https://img.shields.io/badge/pandas-2.x-150458?logo=pandas)
+![Yahoo Finance](https://img.shields.io/badge/Data-Yahoo%20Finance-purple)
+
+| Layer | Technology | Role |
+|---|---|---|
+| Backend | Python + Flask | REST API, routing, backtesting engine |
+| Data | yfinance | Historical OHLCV from Yahoo Finance |
+| Numerics | NumPy + pandas | Price series, returns, covariance |
+| Optimisation | SciPy | Markowitz (Max Sharpe / Min Variance) |
+| Frontend | Vanilla JS + HTML/CSS | Single-page UI, interactive charts |
+| Charting | Chart.js *(or Plotly?)* | Equity curve & allocation visualisation |
+
 ---
 
 ## Getting Started
@@ -72,7 +88,7 @@ StockBacktester/
 │   └── index.html          # Single-page UI
 └── static/
     ├── css/style.css
-    └── js/main.js
+    └── js/main.js   # Vanilla JS — fetch API + Chart.js rendering
 ```
 
 ---
